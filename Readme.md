@@ -4,8 +4,7 @@ Hi Welcome to React.js Challenges here I will be uploading 50 React.js Projects 
 
 # Demo-webpage
 
-https://reactjschallenges2.divijjain.me/
-
+https://www.react-challenges.live
 # FAQ/Accordion
 
 https://reactjschallenges.divijjain.me/
