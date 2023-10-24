@@ -1,14 +1,13 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import "./components/Navbar.css";
-import Head from "./components/bars/Head";
+import Showcase from "./components/showcase/Showcase";
 
 const App = () => {
   return (
     <>
-      <Head />
-
       <Navbar />
+      <Showcase />
     </>
   );
 };
