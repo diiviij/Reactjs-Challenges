@@ -1,18 +1,16 @@
 import React from "react";
-import "../container/Container.css";
-
 const Container = () => {
   return (
     <div>
       <div class="row">
         <div class="col-md-6">
           <h1 class="text-contrast display-4 display-md-3">
-            <span class="bold">Laapp</span>
+            <span class="bold">React Challenges</span>
           </h1>
-          <p class="lead bold">Premium Startup &amp; App Landing Page</p>
+
+          <p class="lead bold">Learn React by Building Real-World Projects !</p>
           <p class="lead">
-            Besides its beautiful design. Laapp is an incredibly rich core
-            framework for you to showcase your App.
+            A series of 50 React.js projects, from beginner to advanced level.
           </p>
           <nav class="my-5 nav">
             <a href="#!" class="btn btn-rounded btn-alternate mr-2 mr-md-5">
@@ -26,10 +24,7 @@ const Container = () => {
         <div class="col-md-6">
           <div class="iphone front mx-auto">
             <div class="screen shadow-box">
-              <img
-                src="https://5studios.net/themes/laapp-react/static/media/9.21d4215d.png"
-                alt="..."
-              />
+              <img src={require("../../Assets/img/phone.png")} alt="..." />
             </div>
             <div class="notch"></div>
           </div>

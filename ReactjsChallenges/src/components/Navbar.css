@@ -2459,9 +2459,9 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(38, 144, 194, 0.5);
 }
 .btn-contrast {
-  color: #212529;
-  background-color: #fff;
-  border-color: #fff;
+  color:  #fff;
+  background-color: #212529;
+  border-color: #212529;
 }
 .btn-contrast:hover {
   color: #212529;

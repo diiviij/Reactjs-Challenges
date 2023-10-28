@@ -11,11 +11,13 @@ const Section = () => {
                 <div class="icon-box rounded gradient gradient-primary-light text-contrast shadow icon-xl">
                   <i class="icon m-0 pe pe-7s-paint-bucket pe-3x"></i>
                 </div>
-                <h4 class="semi-bold mt-4 text-capitalize">themes made easy</h4>
+                <h4 class="semi-bold mt-4 text-capitalize">
+                  What you'll learn
+                </h4>
                 <hr class="w-25 bw-2 border-alternate mt-3 mb-4" />
                 <p class="regular text-muted">
-                  Our astonishing style structure makes your customization
-                  process a breeze
+                  Basic React components and hooks, State management, Routing
+                  ,Forms, Authentication, Testing, Deployment.
                 </p>
               </div>
               <div class="col-md-4">
@@ -33,11 +35,14 @@ const Section = () => {
                 <div class="icon-box rounded gradient gradient-primary-light text-contrast shadow icon-xl">
                   <i class="icon m-0 pe pe-7s-light pe-3x"></i>
                 </div>
-                <h4 class="semi-bold mt-4 text-capitalize">creative content</h4>
+                <h4 class="semi-bold mt-4 text-capitalize">
+                  Why learn React with React Challenges?
+                </h4>
                 <hr class="w-25 bw-2 border-alternate mt-3 mb-4" />
                 <p class="regular text-muted">
-                  Repetitive styles all across the web? Nevermind that! Shine
-                  with unique styles
+                  Fun and challenging way to learn React, Build real-world
+                  applications, Get feedback on your projects, Join a community
+                  of learners
                 </p>
               </div>
             </div>

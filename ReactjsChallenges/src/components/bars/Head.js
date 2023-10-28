@@ -24,14 +24,10 @@ const Head = () => {
             </li>
             <li class="nav-item">
               <a href="#!" class="nav-link">
-                Product
+                Projects
               </a>
             </li>
-            <li class="nav-item">
-              <a href="#!" class="nav-link">
-                Pricing
-              </a>
-            </li>
+
             <li class="nav-item">
               <a href="#!" class="nav-link">
                 Contact
