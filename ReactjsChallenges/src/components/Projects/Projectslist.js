@@ -13,6 +13,7 @@ const Projectslist = [
     title: "GitHub User Search",
     demo: "https://z4rj2r.csb.app/",
     git: " ",
+    data: "m nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn8888888888888888",
   },
   {
     title: "NewsLetter",
