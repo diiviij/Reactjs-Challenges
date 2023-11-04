@@ -24,11 +24,12 @@ const Section = () => {
                 <div class="icon-box rounded gradient gradient-primary-light text-contrast shadow icon-xl">
                   <i class="icon m-0 pe pe-7s-diamond pe-3x"></i>
                 </div>
-                <h4 class="semi-bold mt-4 text-capitalize">powerful design</h4>
+                <h4 class="semi-bold mt-4 text-capitalize">
+                  powerful Projects
+                </h4>
                 <hr class="w-25 bw-2 border-alternate mt-3 mb-4" />
                 <p class="regular text-muted">
-                  With ready-to-use content you'll deploy your implementation in
-                  no time
+                  Projects that will help you to boost your Learning Journey !!
                 </p>
               </div>
               <div class="col-md-4">

@@ -27,12 +27,14 @@ const Projects = () => {
           title={Projectlist[1].title}
           demo={Projectlist[1].demo}
           git={Projectlist[1].git}
+          button={Projectlist[1].button}
         />
         <Projectsdata
           img={require("../Assets/img/github.png")}
           title={Projectlist[2].title}
           demo={Projectlist[2].demo}
           git={Projectlist[2].git}
+          data={Projectlist[2].data}
         />
         <Projectsdata
           // img={require("../Assets/img/coming.jpg")}

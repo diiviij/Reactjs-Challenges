@@ -323,8 +323,8 @@ img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
-  height: 100vh;
-  width: 80vh;
+  height: 90vh;
+  width: 58vh;
   text-align: center;
   margin: 5%;
   display: flexbox;
@@ -464,7 +464,7 @@ img {
   }
 }
 .para-content {
-  background: red;
+  color: blue;
   margin: 2.5%;
 }
 .pro {

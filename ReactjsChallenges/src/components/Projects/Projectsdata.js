@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 
 const Projectsdata = (props) => {
   return (
@@ -19,7 +20,14 @@ const Projectsdata = (props) => {
             </a>
           </div>
           <div className="para-content">
-            <p>{props.data}</p>
+            <p>
+              {props.data}
+              <Button variant="outline-primary">{props.button}</Button>{" "}
+              <Button variant="outline-success">{props.button2}</Button>{" "}
+              <Button variant="outline-warning">{props.button3}</Button>{" "}
+              <Button variant="outline-danger">{props.button4}</Button>{" "}
+              <Button variant="outline-info">{props.button5}</Button>{" "}
+            </p>
           </div>
         </div>
       </div>

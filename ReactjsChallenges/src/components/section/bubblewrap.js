@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 const BubbleWrap = () => {
   return (
     <section class="section integration-bubbles">
