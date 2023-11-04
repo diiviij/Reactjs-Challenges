@@ -1,42 +1,41 @@
+// import Button from "react-bootstrap/Button";
+// import Container from "react-bootstrap/Container";
+// import Form from "react-bootstrap/Form";
+// import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 import React from "react";
 
 const Head = () => {
   return (
-    <nav class="navbar navbar-expand-md main-nav navigation fixed-top sidebar-left">
-      <div class="container">
-        <button class="navbar-toggler" type="button">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav ml-auto navbar-nav">
-            <li class="nav-item">
-              <a href="#!" class="nav-link">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#!" class="nav-link">
-                About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#!" class="nav-link">
-                Projects
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a href="#!" class="nav-link">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <Navbar expand="lg" className="bg-body-tertiary">
+      {/* <Container fluid>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: "100px" }}
+            navbarScroll
+          >
+            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="#action2">Link</Nav.Link>
+            <NavDropdown title="Link" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action5">
+                Something else here
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#" disabled>
+              Link
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container> */}
+    </Navbar>
   );
 };
 

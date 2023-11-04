@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 const BubbleWrap = () => {
   return (
     <section class="section integration-bubbles">
@@ -9,8 +10,9 @@ const BubbleWrap = () => {
               <div class="animations m-0">
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-xl">
                   <img
-                    src={require("../Assets/img/apx.svg")}
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/autofixer.svg"
                     class="img-responsive"
+                    alt=""
                   />
                   <span class="badge badge-contrast shadow-box">
                     Autoprefixer
@@ -18,7 +20,7 @@ const BubbleWrap = () => {
                 </div>
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-xxl">
                   <img
-                    src={require("../Assets/img/bootstrap.svg")}
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/bootstrap.svg"
                     class="img-responsive"
                   />
                   <span class="badge badge-contrast shadow-box">Bootstrap</span>
@@ -26,7 +28,7 @@ const BubbleWrap = () => {
 
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-md">
                   <img
-                    src="/themes/laapp-react/static/media/cordova.aa5aebb4.svg"
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/cordova.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -35,7 +37,7 @@ const BubbleWrap = () => {
 
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-lg">
                   <img
-                    src="/themes/laapp-react/static/media/css.d3ad67fa.svg"
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/css.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -44,7 +46,7 @@ const BubbleWrap = () => {
 
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-xl">
                   <img
-                    src={require("../Assets/img/font.svg")}
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/font.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -55,7 +57,7 @@ const BubbleWrap = () => {
 
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-xxl">
                   <img
-                    src="/themes/laapp-react/static/media/html.24845c5c.svg"
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/html.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -64,7 +66,7 @@ const BubbleWrap = () => {
 
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-lg">
                   <img
-                    src="/themes/laapp-react/static/media/js.87711407.svg"
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/js.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -75,7 +77,7 @@ const BubbleWrap = () => {
 
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-xxl">
                   <img
-                    src="/themes/laapp-react/static/media/npm.4ffaf293.svg"
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/npm.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -84,7 +86,7 @@ const BubbleWrap = () => {
 
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-xl">
                   <img
-                    src="/themes/laapp-react/static/media/sass.470548b4.svg"
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/sass.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -92,7 +94,7 @@ const BubbleWrap = () => {
                 </div>
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-lg">
                   <img
-                    src="/themes/laapp-react/static/media/apx.8a905a8b.svg"
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/autofixer.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -102,7 +104,7 @@ const BubbleWrap = () => {
                 </div>
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-md">
                   <img
-                    src="/themes/laapp-react/static/media/bs.71e42b5a.svg"
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/bootstrap.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -110,7 +112,7 @@ const BubbleWrap = () => {
                 </div>
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-xxl">
                   <img
-                    src="/themes/laapp-react/static/media/cordova.aa5aebb4.svg"
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/cordova.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -118,7 +120,7 @@ const BubbleWrap = () => {
                 </div>
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-xl">
                   <img
-                    src="/themes/laapp-react/static/media/css.d3ad67fa.svg"
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/css.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -126,7 +128,7 @@ const BubbleWrap = () => {
                 </div>
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-xxl">
                   <img
-                    src={require("../Assets/img/font.svg")}
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/font.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -136,7 +138,7 @@ const BubbleWrap = () => {
                 </div>
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-md">
                   <img
-                    src={require("../Assets/img/html.svg")}
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/font.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -144,7 +146,7 @@ const BubbleWrap = () => {
                 </div>
                 <div class="bubble bg-contrast rounded-circle p-2 shadow icon icon-lg">
                   <img
-                    src={require("../Assets/img/js.svg")}
+                    src="https://raw.githubusercontent.com/diiviij/Reactjs-Challenges/00411a234d3bf742d5e3d94dfd15eb4864b443cf/ReactjsChallenges/src/components/Assets/img/js.svg"
                     alt=""
                     class="img-responsive"
                   />
@@ -157,15 +159,18 @@ const BubbleWrap = () => {
           </div>
           <div class="col-md-6">
             <div class="section-heading">
-              <p class="text-alternate text-uppercase bold">Extending core</p>
+              <p class="text-alternate text-uppercase bold">
+                Learn React by Building Real-World Projects{" "}
+              </p>
               <h2 class="heading-line">Integrations to make it better</h2>
               <p class="lead text-muted">
-                Ever wonder about the wonder of Laap: We count on hundreds of
-                friends contributing day by day to make Laapp a wonderful tool
+                A series of 50 React.js projects, from beginner to advanced
+                level, with free resources, documentation, and a more
+                interactive website coming soon.
               </p>
             </div>
             <a class="more-link undefined" href="#">
-              Explore all integration
+              Explore all
             </a>
           </div>
         </div>

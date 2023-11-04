@@ -3,6 +3,7 @@ import Head from "./bars/Head";
 import Container from "./bars/container/Container";
 import Section from "./section/Section";
 import Projects from "./Projects/Projects";
+import Footer from "./section/Footer";
 
 const Navbar = () => {
   return (
@@ -15,6 +16,21 @@ const Navbar = () => {
       </header>
       <Section />
       <Projects />
+      <div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+      <Footer />
     </>
   );
 };

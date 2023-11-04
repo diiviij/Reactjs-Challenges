@@ -323,9 +323,11 @@ img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
-  height: 108%;
-  width: 108%;
+  height: 90vh;
+  width: 58vh;
   text-align: center;
+  margin: 5%;
+  display: flexbox;
 }
 
 .work__img img {
@@ -460,4 +462,12 @@ img {
   .home__img {
     right: 10%;
   }
+}
+.para-content {
+  color: blue;
+  margin: 2.5%;
+}
+.pro {
+  display: inline-block;
+  margin: 2%;
 }
